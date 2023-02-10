@@ -1,7 +1,13 @@
-import "./App.scss";
+import Navbar from "./components/Navbar/Navbar";
+import { Container } from "@mui/system";
 
 function App() {
-	return <div className="App">This is working</div>;
+	return (
+		<main style={{ fontFamily: "'Roboto' , sans-serif" }}>
+			<Navbar className="navbar" />
+			<Container maxWidth="lg" className="container"></Container>
+		</main>
+	);
 }
 
 export default App;

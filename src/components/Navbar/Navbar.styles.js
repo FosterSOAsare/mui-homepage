@@ -38,6 +38,9 @@ export let navbarStyles = {
 		alignItems: "center",
 		border: "1px solid #132F4C",
 		gap: "7px",
+		"&:hover": {
+			backgroundColor: "#132F4C",
+		},
 	},
 
 	nav__actions: {
@@ -49,5 +52,8 @@ export let navbarStyles = {
 		padding: "5px",
 		height: "22px",
 		width: "22px",
+		"&:hover": {
+			backgroundColor: "#132F4C",
+		},
 	},
 };
